@@ -1,3 +1,5 @@
+#!/home/mitsuki/.pyenv/versions/anaconda3-4.2.0/bin/python
+
 import xml.etree.ElementTree as ET
 import sys
 
