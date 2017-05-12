@@ -6,7 +6,7 @@
 
 0. download_fna.ipynb
 	* Downloads cds_from_genomic from RefSeq
-	* !!!TBI download 25 files, not 41.
+	* !!!TBI: download 25 files, not 41.!!!
 
 0. create_annotated.sh
 	* Creates annotated.ffmsgf for each pnnl sequence files.
