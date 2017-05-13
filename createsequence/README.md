@@ -6,10 +6,12 @@ Creates sequences needed for peptide identification.
 0. pnnl sequences
 	* See downloadpnnl directory for further information.
 	* To extract information on contamination
-0. RefSeq protein
+0. RefSeq
+	* `_protein.faa` for `_annotated.fasta`
+	* `_cds_from_genomic.fna` for `_ocelot30.fasta`
 
 ## Type of fasta
-4 Type of fsata file are created as database for MS-GF+.
+3 Type of fasta file are created as database for MS-GF+.
 
 0. `_annotated.fasta`
 	* `.contami`+ RefSeq protein
@@ -34,7 +36,7 @@ Creates sequences needed for peptide identification.
 	* Creates `.contami` file for all the downloaded pnnl sequence files.
 	* Identifier "CON" are given to those extracted contamination sequences.
 
-0. download_fna.ipynb
+0. download_refseq.ipynb
 	* Downloads cds_from_genomic & protein from RefSeq
 	* !!!TBI: download 25 files, not 41!!!
 
@@ -43,6 +45,6 @@ Creates sequences needed for peptide identification.
 		* The extension must be `.fasta` to use for MS-GF+
 	* Identifier "REF" are given to those annotated sequences.
 
-0. Untitled.ipynb
-	* Extracts information on which `\_annotated.fasta` to use for peptide identification for each datasets.
+0. assign_annotated.ipynb
+	* Extracts information on which `_annotated.fasta` to use for peptide identification for each datasets.
 	* Organizes extracted information into pnnl_sequence.csv.

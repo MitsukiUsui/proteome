@@ -9,7 +9,7 @@ do
 	for conFilepath in ${file_arr[@]}
 	do
 		base=`basename ${conFilepath} .contami`
-		outFilepath=${dir}${base}_annotated.ffmsgf
+		outFilepath=${dir}${base}_annotated.fasta
 		echo "ORGANISM : ${organism}"
 		echo "CONTAMI  : ${conFilepath}"
 		echo "OUTFILE  : ${outFilepath}" 

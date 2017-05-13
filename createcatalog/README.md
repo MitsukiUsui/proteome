@@ -17,8 +17,9 @@ Organize scattered information about the 112 species on [pnnl dataset](https://w
     ```
     * in order to get directly name
 
-0. ???
-    * 論文のsupplementary
+0. pnnl_datasets.csv
+	* [Supplementray Table 2](https://www.nature.com/article-assets/npg/sdata/2015/sdata201541/extref/sdata201541-s3.xls)
+	* convert first sheet to `.csv`
 
 ## Output
 ### pnnl_lookup.csv
@@ -31,7 +32,7 @@ Organize scattered information about the 112 species on [pnnl dataset](https://w
 * genome_flag (0/1): whether corresponding tax_id is included in [genome analysis](https://github.com/MitsukiUsui/genome)
 
 ## pnnl_downloads.csv
-* the columns structure is the same as supplementary
+* the columns structure is the same as pnnl_datasets.csv
 
 ## Scripts
 0. parse_proteomexchange.ipynb
@@ -46,5 +47,5 @@ Organize scattered information about the 112 species on [pnnl dataset](https://w
     * adds genome_flag column to pnnl_lookup.csv
 
 0. pnnl_downloads.ipynb
-    * chooses which datasets to analyze
-    * max 10
+    * chooses which datasets to analyze from pnnl_datasets.csv
+	* max 10 datasets for each organisms

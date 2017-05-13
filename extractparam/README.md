@@ -15,7 +15,7 @@
 
 0. extract_param.sh
     * Extracts information on MS-GF+ configuration from the corresponding `.mzid` file.
-    * Organizes information at `~/out/.......`
+    * Output information at `/home/mitsuki/out/altorf/proteome/param/$ORGANISM/`
 
 0. classify_param.ipynb
     * Classify parameter sets into groups
