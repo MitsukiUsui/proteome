@@ -10,8 +10,11 @@ Creates sequences needed for peptide identification.
 	* `_protein.faa` for `_annotated.fasta`
 	* `_cds_from_genomic.fna` for `_ocelot30.fasta`
 
-## Type of fasta
-3 Type of fasta file are created as database for MS-GF+.
+
+## Output
+
+### Fasta
+3 Type of fasta file are generated as sequence database for peptide identification.
 
 0. `_annotated.fasta`
 	* `.contami`+ RefSeq protein
@@ -20,15 +23,13 @@ Creates sequences needed for peptide identification.
 0. `_allorf30.fasta`
 	* `_annotated.fasta` + allorf30
 
-## csv
-* pnnl_sequence.csv
+### pnnl_sequence.csv
 
 |Organism|Dataset|annotated|
 |:--|:--|:--|
 |same as dir_name|name of the dataset|corresponding `_annotated.fasta`  filepath|
 
-* The pair of `Organism` & `Dataset` can be used as key. 
-
+* The pair of `Organism` & `Dataset` can be used as key.
 
 ## Scripts
 

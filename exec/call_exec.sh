@@ -7,17 +7,17 @@ do
 	organism=`echo ${line}|cut -d, -f 1`
 	dataset=`echo ${line}|cut -d, -f 3`
 
-	#get param num
+	#define which execution file to use for MS-GF+
 	paramNum=`awk -v "o=${organism}" -v "d=${dataset}" -F, '$1==o && $2==d{print $3}' ../extractparam/pnnl_param.csv`
 	cmd=${dir}param/exec_${paramNum}.sh
-	
-	#define 3 filepath for execution
+
+	#define 3 filepath for MS-GF+
 	specFilepath=/home/mitsuki/data/pnnl/massive.ucsd.edu/peak/${organism}/${dataset}.mzML
 	dataFilepath=`awk -v "o=${organism}" -v "d=${dataset}" -F, '$1==o && $2==d{print $3}' ../createsequence/pnnl_sequence.csv`
 	outFilepath=${dir}result/${organism}/${dataset}_annotated.mzid
 	mkdir -p ${dir}result/${organism}
 
-	#submit to uge using qsub
+	#submit jobs to uge using qsub
 	outlog=${dir}log/${organism}/${dataset}.sgeout
 	errlog=${dir}log/${organism}/${dataset}.sgeerr
 	mkdir -p ${dir}log/${organism}
