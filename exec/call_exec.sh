@@ -1,8 +1,8 @@
 dir=/home/mitsuki/out/altorf/proteome/
 
 IFS=$'\n'
-for line in `cat ../createcatalog/pnnl_downloads.csv`
-#for line in `cat ../createcatalog/head_pnnl_downloads.csv`
+for line in `tail -n +2 ../createcatalog/pnnl_downloads.csv`
+#for line in `tail -n +2 ../createcatalog/head_pnnl_downloads.csv`
 do
 	organism=`echo ${line}|cut -d, -f 1`
 	dataset=`echo ${line}|cut -d, -f 3`
