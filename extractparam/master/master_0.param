@@ -1,0 +1,17 @@
+TargetDecoyApproach:true
+MinIsotopeError:-1
+MaxIsotopeError:2
+FragmentMethod:As written in the spectrum or CID if no info
+Instrument:LowRes
+Protocol:Standard
+NumTolerableTermini:1
+NumMatchesPerSpec:1
+MaxNumModifications:3
+MinPepLength:6
+MaxPepLength:50
+MinCharge:2
+MaxCharge:5
+Modification:M/15.994915/false
+Enzymes:Tryp
+search tolerance plus value:20.0 parts per million
+search tolerance minus value:20.0 parts per million
