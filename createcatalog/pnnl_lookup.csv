@@ -1,113 +1,113 @@
-scientific_name,taxid,dir_name,genome_flag
-Acidiphilium cryptum JF-5,349163,Acidiphilium_cryptum_JF-5,0
-Actinosynnema mirum DSM 43827,446462,Actinosynnema_mirum_DSM_43827,1
-Anabaena variabilis,1172,Anabaena_variabilis,0
-Anaeromyxobacter dehalogenans,161493,Anaeromyxobacter_dehalogenans,0
-Anaplasma phagocytophilum,948,Anaplasma_phagocytophilium,0
-Arthrobacter sp. FB24,290399,Arthrobacter_sp_FB24,1
-Bacillus anthracis str. Ames,198094,Bacillus_anthracis_Ames,0
-Bacillus anthracis str. Sterne,260799,Bacillus_anthracis_Sterne,0
-Bacillus subtilis subsp. subtilis str. 168,224308,Bacillus_subtilis_168,0
-Bartonella henselae str. Houston-1,283166,Bartonella_henselae_Houston-1,1
-Borrelia burgdorferi B31,224326,Borrelia_burdorferi_B31,0
-Brachybacterium faecium DSM 4810,446465,Brachybacterium_faecium_DSM_4810,0
-Burkholderia mallei,13373,Burkholderia_mallei,0
-Candidatus Chloracidobacterium thermophilum,458033,Candidatus_chloracidobacterium_thermophilum,0
-Caulobacter crescentus CB15,190650,Caulobacter_crescentus_CB15,0
-Cellulomonas flavigena DSM 20109,446466,Cellulomonas_flavigena_DSM_20109,1
-Cenarchaeum symbiosum,46770,Cenarchaeum_symbiosum,0
-Chlorobaculum tepidum,1097,Chlorobaculum_tepidum_WT,0
-Chloroflexus aurantiacus,1108,Chloroflexus_aurantiacus,0
-Clostridium thermocellum,1515,Clostridium_thermocellum,0
-Cryptobacterium curtum DSM 15641,469378,Cryptobacterium_curtum_DSM_15641,1
-Synechocystis sp. PCC 6803,1148,Cyanobacterium_synechocystis_PCC6803,1
-Cyanothece sp. ATCC 51142,43989,Cyanothece_sp_ATCC51142,1
-Cyanothece sp. ATCC 51472,860575,Cyanothece_strain_ATCC51472,0
-Cyanothece sp. PCC 7424,65393,Cyanothece_strain_PCC7424,1
-Cyanothece sp. PCC 7425,395961,Cyanothece_strain_PCC7425,1
-Cyanothece sp. PCC 7822,497965,Cyanothece_strain_PCC7822,1
-Cyanothece sp. PCC 8801,41431,Cyanothece_strain_PCC8801,1
-Cyanothece sp. PCC 8802,395962,Cyanothece_strain_PCC8802,0
-Dehalococcoides ethenogenes 195,243164,Dehalococcoides_ethenogenes,1
-Deinococcus radiodurans R1,243230,Deinococcus_radiodurans_R1,0
-delta proteobacterium NaphS2,88274,Delta_proteobacterium_NaphS2,0
-Desulfovibrio desulfuricans,876,Desulfovibrio_desulfuricans_G20,0
-Desulfovibrio desulfuricans ND132,641491,Desulfovibrio_sp_ND132,1
-Desulfovibrio vulgaris str. Hildenborough,882,Desulfovibrio_vulgaris_Hildenborough,0
-Dethiosulfovibrio peptidovorans DSM 11002,469381,Dethiosulfovibrio_peptidovorans_DSM_11002,0
-Ehrlichia chaffeensis,945,Ehrlichia_chaffeensis,0
-Enterobacter cloacae SCF1,701347,Enterobacter_cloacae_SCF1,1
-Escherichia coli BL21,511693,Escherichia_coli_BL21,0
-Escherichia coli str. K-12 substr. MG1655,511145,Escherichia_coli_K-12,0
-escherichia coli rk4353,,Escherichia_coli_RK4353,0
-Fibrobacter succinogenes subsp. succinogenes S85,59374,Fibrobacter_succinogenes_S85,1
-Geobacter bemidjiensis Bem,404380,Geobacter_bemidjiensis_Bem_T,1
-Geobacter metallireducens GS-15,269799,Geobacter_metallireducens_GS-15,1
-Geobacter sulfurreducens PCA,243231,Geobacter_sulfurreducens_PCA,0
-Geobacter uraniireducens,351604,Geobacter_uraniumreducens,0
-Haloferax volcanii,2246,Haloferax_volcanii,0
-Halogeometricum borinquense DSM 11551,469382,Halogeometricum_borinquense_DSM_11551,1
-Halorhabdus utahensis DSM 12940,519442,Halorhabdus_utahensis_DSM_12940,1
-Heliobacterium modesticaldum,35701,Heliobacterium_modesticaldum,0
-Kineococcus radiotolerans SRS30216,266940,Kineococcus_radiotolerans_SRS30216,1
-Kosmotoga olearia TBF 19.5.1,521045,Kosmotoga_olearia_TBF_19-5-1,1
-Methanosarcina barkeri,2208,Methanosarcina_barkeri,0
-Methanospirillum hungatei JF-1,323259,Methanospirillum_hungatei_JF-1,1
-Methylophilales bacterium HTCC2181,383631,Methylophilales_HTCC2181,0
-Mycobacterium tuberculosis H37Rv,83332,Mycobacterium_tuberculosis,0
-Nakamurella multipartita DSM 44233,479431,Nakamurella_multipartita_DSM_44233,1
-Nocardiopsis dassonvillei subsp. dassonvillei DSM 43111,446468,Nocardiopsis_dassonvillei_DSM_43111,1
-Novosphingobium aromaticivorans,48935,Novosphingobium_aromaticivorans_F199,0
-Diplosphaera colitermitum TAV2,278957,Opitutaceae_bacterium_TAV2,0
-Candidatus Pelagibacter ubique HTCC1062,335992,Pelagibacter_ubique_HTC1062,1
-Pelobacter carbinolicus DSM 2380,338963,Pelobacter_carbinolicus_DSM_2380,1
-Prochlorococcus marinus subsp. pastoris str. CCMP1986,59919,Prochlorococcus,1
-Pseudomonas aeruginosa PAO1,208964,Pseudomonas_aerunginosa,0
-Pseudomonas fluorescens Pf0-1,205922,Pseudomonas_fluorescens_PfO-1,0
-Pseudonocardia sp.,60912,Pseudonocardia_sp,0
-Ralstonia pickettii,329,Ralstonia_pickettii,0
-Rhodobacter capsulatus SB 1003,272942,Rhodobacter_capsulatus_SB1003,1
-Rhodobacter sphaeroides 2.4.1,272943,Rhodobacter_sphaeroides_2.4.1,0
-Rhodopseudomonas palustris,1076,Rhodopseudomonas_palustris,0
-Roseiflexus castenholzii,120962,Roseiflexus_castenholzii,0
-Saccharomonospora viridis DSM 43017,471857,Saccharomonospora_viridis_DSM_43017,1
-Salmonella enterica subsp. enterica serovar Typhi str. Ty2,209261,Salmonella_typhi_TY2,0
-Salmonella enterica subsp. enterica serovar Typhimurium str. 14028S,588858,Salmonella_typhimurium_ATCC_14028,0
-Salmonella enterica subsp. enterica serovar Typhimurium str. LT2,99287,Salmonella_typhimurium_LT2,0
-Sanguibacter keddieii DSM 10542,446469,Sanguibacter_keddieii_DSM_10542,1
-Shewanella amazonensis SB2B,326297,Shewanella_amazonensis_SB2B,1
-Shewanella baltica OS155,325240,Shewanella_baltica_OS155,0
-Shewanella baltica OS185,402882,Shewanella_baltica_OS185,0
-Shewanella baltica OS195,399599,Shewanella_baltica_OS195,0
-Shewanella baltica OS223,407976,Shewanella_baltica_OS223,0
-Shewanella denitrificans OS217,318161,Shewanella_denitrificans_OS217,1
-Shewanella frigidimarina NCIMB 400,318167,Shewanella_frigidimarina_NCIMB_400,1
-Shewanella loihica PV-4,323850,Shewanella_loihica_PV-4,1
-Shewanella oneidensis MR-1,211586,Shewanella_oneidensis_MR-1,0
-Shewanella putrefaciens 200,399804,Shewanella_putrefaciens_200,0
-Shewanella putrefaciens CN-32,319224,Shewanella_putrefaciens_CN-32,0
-Shewanella sp. W3-18-1,351745,Shewanella_putrefaciens_W3-18-1,0
-Shewanella sp. ANA-3,94122,Shewanella_sp_ANA-3,0
-Shewanella sp. MR-4,60480,Shewanella_sp_MR-4,0
-Shewanella sp. MR-7,60481,Shewanella_sp_MR-7,0
-Sinorhizobium medicae,110321,Sinorhizobium_medicae,0
-Sinorhizobium meliloti 1021,266834,Sinorhizobium_meliloti_1021,0
-Slackia heliotrinireducens DSM 20476,471855,Slackia_heliotrinireducens_DSM_20476,1
-Stackebrandtia nassauensis DSM 44728,446470,Stackebrandtia_nassauensis_DSM_44728,1
-Sulfolobus acidocaldarius DSM 639,330779,Sulfolobus_acidocaldarius_DSM_639,1
-Synechococcus sp. PCC 7002,32049,Synechococcus_sp_PCC7002,1
-Syntrophobacter fumaroxidans,119484,Syntrophobacter_fumaroxidans,0
-Thermobispora bispora DSM 43833,469371,Thermobispora_bispora_DSM_43833,1
-Thermosynechococcus elongatus BP-1,197221,Thermosynechococcus_elongatus_BP-1,0
-Thermosynechococcus sp. NK55a,,Thermosynechococcus_sp_NAK55,0
-Thermotoga maritima,2336,Thermotoga_maritima,0
-Thiocapsa marina,244573,Thiocapsa_marina_DSM_5653T,0
-Opitutaceae bacterium TAV1,278956,Verrucomicrobium_sp_TAV1,0
-Opitutaceae bacterium TAV5,794903,Verrucomicrobium_sp_TAV5,1
-Xylanimonas cellulosilytica DSM 15894,446471,Xylanimonas_cellulosilytica_DSM_15894,1
-Yersinia enterocolitica,630,Yersinia_enterocolitica,0
-Yersinia pestis CO92,214092,Yersinia_pestis_CO92,0
-Yersinia pestis KIM10+,187410,Yersinia_pestis_KIM,0
-,,Yersinia_pestis_Pestoides_F,0
-Yersinia pseudotuberculosis IP 32953,273123,Yersinia_pseudotuberculosis_IP_32953,0
-Yersinia pseudotuberculosis PB1/+,502801,Yersinia_pseudotuberculosis_PB1_Plus,0
+scientific_name,taxid,dir_name,genome_flag,domain,ftp_basename
+Acidiphilium cryptum JF-5,349163,Acidiphilium_cryptum_JF-5,0,,
+Actinosynnema mirum DSM 43827,446462,Actinosynnema_mirum_DSM_43827,1,bacteria,GCF_000023245.1_ASM2324v1
+Anabaena variabilis,1172,Anabaena_variabilis,0,,
+Anaeromyxobacter dehalogenans,161493,Anaeromyxobacter_dehalogenans,0,,
+Anaplasma phagocytophilum,948,Anaplasma_phagocytophilium,0,,
+Arthrobacter sp. FB24,290399,Arthrobacter_sp_FB24,1,bacteria,GCF_000196235.1_ASM19623v1
+Bacillus anthracis str. Ames,198094,Bacillus_anthracis_Ames,0,,
+Bacillus anthracis str. Sterne,260799,Bacillus_anthracis_Sterne,0,,
+Bacillus subtilis subsp. subtilis str. 168,224308,Bacillus_subtilis_168,0,,
+Bartonella henselae str. Houston-1,283166,Bartonella_henselae_Houston-1,1,bacteria,GCF_000046705.1_ASM4670v1
+Borrelia burgdorferi B31,224326,Borrelia_burdorferi_B31,0,,
+Brachybacterium faecium DSM 4810,446465,Brachybacterium_faecium_DSM_4810,0,,
+Burkholderia mallei,13373,Burkholderia_mallei,0,,
+Candidatus Chloracidobacterium thermophilum,458033,Candidatus_chloracidobacterium_thermophilum,0,,
+Caulobacter crescentus CB15,190650,Caulobacter_crescentus_CB15,0,,
+Cellulomonas flavigena DSM 20109,446466,Cellulomonas_flavigena_DSM_20109,1,bacteria,GCF_000092865.1_ASM9286v1
+Cenarchaeum symbiosum,46770,Cenarchaeum_symbiosum,0,,
+Chlorobaculum tepidum,1097,Chlorobaculum_tepidum_WT,0,,
+Chloroflexus aurantiacus,1108,Chloroflexus_aurantiacus,0,,
+Clostridium thermocellum,1515,Clostridium_thermocellum,0,,
+Cryptobacterium curtum DSM 15641,469378,Cryptobacterium_curtum_DSM_15641,1,bacteria,GCF_000023845.1_ASM2384v1
+Synechocystis sp. PCC 6803,1148,Cyanobacterium_synechocystis_PCC6803,1,bacteria,GCF_000009725.1_ASM972v1
+Cyanothece sp. ATCC 51142,43989,Cyanothece_sp_ATCC51142,1,bacteria,GCF_000017845.1_ASM1784v1
+Cyanothece sp. ATCC 51472,860575,Cyanothece_strain_ATCC51472,0,,
+Cyanothece sp. PCC 7424,65393,Cyanothece_strain_PCC7424,1,bacteria,GCF_000021825.1_ASM2182v1
+Cyanothece sp. PCC 7425,395961,Cyanothece_strain_PCC7425,1,bacteria,GCF_000022045.1_ASM2204v1
+Cyanothece sp. PCC 7822,497965,Cyanothece_strain_PCC7822,1,bacteria,GCF_000147335.1_ASM14733v1
+Cyanothece sp. PCC 8801,41431,Cyanothece_strain_PCC8801,1,bacteria,GCF_000021805.1_ASM2180v1
+Cyanothece sp. PCC 8802,395962,Cyanothece_strain_PCC8802,0,,
+Dehalococcoides ethenogenes 195,243164,Dehalococcoides_ethenogenes,1,bacteria,GCF_000011905.1_ASM1190v1
+Deinococcus radiodurans R1,243230,Deinococcus_radiodurans_R1,0,,
+delta proteobacterium NaphS2,88274,Delta_proteobacterium_NaphS2,0,,
+Desulfovibrio desulfuricans,876,Desulfovibrio_desulfuricans_G20,0,,
+Desulfovibrio desulfuricans ND132,641491,Desulfovibrio_sp_ND132,1,bacteria,GCF_000189295.2_ASM18929v2
+Desulfovibrio vulgaris str. Hildenborough,882,Desulfovibrio_vulgaris_Hildenborough,0,,
+Dethiosulfovibrio peptidovorans DSM 11002,469381,Dethiosulfovibrio_peptidovorans_DSM_11002,0,,
+Ehrlichia chaffeensis,945,Ehrlichia_chaffeensis,0,,
+Enterobacter cloacae SCF1,701347,Enterobacter_cloacae_SCF1,1,bacteria,GCF_000164865.1_ASM16486v1
+Escherichia coli BL21,511693,Escherichia_coli_BL21,0,,
+Escherichia coli str. K-12 substr. MG1655,511145,Escherichia_coli_K-12,0,,
+escherichia coli rk4353,,Escherichia_coli_RK4353,0,,
+Fibrobacter succinogenes subsp. succinogenes S85,59374,Fibrobacter_succinogenes_S85,1,bacteria,GCF_000146505.1_ASM14650v1
+Geobacter bemidjiensis Bem,404380,Geobacter_bemidjiensis_Bem_T,1,bacteria,GCF_000020725.1_ASM2072v1
+Geobacter metallireducens GS-15,269799,Geobacter_metallireducens_GS-15,1,bacteria,GCF_000012925.1_ASM1292v1
+Geobacter sulfurreducens PCA,243231,Geobacter_sulfurreducens_PCA,0,,
+Geobacter uraniireducens,351604,Geobacter_uraniumreducens,0,,
+Haloferax volcanii,2246,Haloferax_volcanii,0,,
+Halogeometricum borinquense DSM 11551,469382,Halogeometricum_borinquense_DSM_11551,1,archaea,GCF_000172995.2_ASM17299v2
+Halorhabdus utahensis DSM 12940,519442,Halorhabdus_utahensis_DSM_12940,1,archaea,GCF_000023945.1_ASM2394v1
+Heliobacterium modesticaldum,35701,Heliobacterium_modesticaldum,0,,
+Kineococcus radiotolerans SRS30216,266940,Kineococcus_radiotolerans_SRS30216,1,bacteria,GCF_000017305.1_ASM1730v1
+Kosmotoga olearia TBF 19.5.1,521045,Kosmotoga_olearia_TBF_19-5-1,1,bacteria,GCF_000023325.1_ASM2332v1
+Methanosarcina barkeri,2208,Methanosarcina_barkeri,0,,
+Methanospirillum hungatei JF-1,323259,Methanospirillum_hungatei_JF-1,1,archaea,GCF_000013445.1_ASM1344v1
+Methylophilales bacterium HTCC2181,383631,Methylophilales_HTCC2181,0,,
+Mycobacterium tuberculosis H37Rv,83332,Mycobacterium_tuberculosis,0,,
+Nakamurella multipartita DSM 44233,479431,Nakamurella_multipartita_DSM_44233,1,bacteria,GCF_000024365.1_ASM2436v1
+Nocardiopsis dassonvillei subsp. dassonvillei DSM 43111,446468,Nocardiopsis_dassonvillei_DSM_43111,1,bacteria,GCF_000092985.1_ASM9298v1
+Novosphingobium aromaticivorans,48935,Novosphingobium_aromaticivorans_F199,0,,
+Diplosphaera colitermitum TAV2,278957,Opitutaceae_bacterium_TAV2,0,,
+Candidatus Pelagibacter ubique HTCC1062,335992,Pelagibacter_ubique_HTC1062,1,bacteria,GCF_000012345.1_ASM1234v1
+Pelobacter carbinolicus DSM 2380,338963,Pelobacter_carbinolicus_DSM_2380,1,bacteria,GCF_000012885.1_ASM1288v1
+Prochlorococcus marinus subsp. pastoris str. CCMP1986,59919,Prochlorococcus,1,bacteria,GCF_000011465.1_ASM1146v1
+Pseudomonas aeruginosa PAO1,208964,Pseudomonas_aerunginosa,0,,
+Pseudomonas fluorescens Pf0-1,205922,Pseudomonas_fluorescens_PfO-1,0,,
+Pseudonocardia sp.,60912,Pseudonocardia_sp,0,,
+Ralstonia pickettii,329,Ralstonia_pickettii,0,,
+Rhodobacter capsulatus SB 1003,272942,Rhodobacter_capsulatus_SB1003,1,bacteria,GCF_000021865.1_ASM2186v1
+Rhodobacter sphaeroides 2.4.1,272943,Rhodobacter_sphaeroides_2.4.1,0,,
+Rhodopseudomonas palustris,1076,Rhodopseudomonas_palustris,0,,
+Roseiflexus castenholzii,120962,Roseiflexus_castenholzii,0,,
+Saccharomonospora viridis DSM 43017,471857,Saccharomonospora_viridis_DSM_43017,1,bacteria,GCF_000023865.1_ASM2386v1
+Salmonella enterica subsp. enterica serovar Typhi str. Ty2,209261,Salmonella_typhi_TY2,0,,
+Salmonella enterica subsp. enterica serovar Typhimurium str. 14028S,588858,Salmonella_typhimurium_ATCC_14028,0,,
+Salmonella enterica subsp. enterica serovar Typhimurium str. LT2,99287,Salmonella_typhimurium_LT2,0,,
+Sanguibacter keddieii DSM 10542,446469,Sanguibacter_keddieii_DSM_10542,1,bacteria,GCF_000024925.1_ASM2492v1
+Shewanella amazonensis SB2B,326297,Shewanella_amazonensis_SB2B,1,bacteria,GCF_000015245.1_ASM1524v1
+Shewanella baltica OS155,325240,Shewanella_baltica_OS155,0,,
+Shewanella baltica OS185,402882,Shewanella_baltica_OS185,0,,
+Shewanella baltica OS195,399599,Shewanella_baltica_OS195,0,,
+Shewanella baltica OS223,407976,Shewanella_baltica_OS223,0,,
+Shewanella denitrificans OS217,318161,Shewanella_denitrificans_OS217,1,bacteria,GCF_000013765.1_ASM1376v1
+Shewanella frigidimarina NCIMB 400,318167,Shewanella_frigidimarina_NCIMB_400,1,bacteria,GCF_000014705.1_ASM1470v1
+Shewanella loihica PV-4,323850,Shewanella_loihica_PV-4,1,bacteria,GCF_000016065.1_ASM1606v1
+Shewanella oneidensis MR-1,211586,Shewanella_oneidensis_MR-1,0,,
+Shewanella putrefaciens 200,399804,Shewanella_putrefaciens_200,0,,
+Shewanella putrefaciens CN-32,319224,Shewanella_putrefaciens_CN-32,0,,
+Shewanella sp. W3-18-1,351745,Shewanella_putrefaciens_W3-18-1,0,,
+Shewanella sp. ANA-3,94122,Shewanella_sp_ANA-3,0,,
+Shewanella sp. MR-4,60480,Shewanella_sp_MR-4,0,,
+Shewanella sp. MR-7,60481,Shewanella_sp_MR-7,0,,
+Sinorhizobium medicae,110321,Sinorhizobium_medicae,0,,
+Sinorhizobium meliloti 1021,266834,Sinorhizobium_meliloti_1021,0,,
+Slackia heliotrinireducens DSM 20476,471855,Slackia_heliotrinireducens_DSM_20476,1,bacteria,GCF_000023885.1_ASM2388v1
+Stackebrandtia nassauensis DSM 44728,446470,Stackebrandtia_nassauensis_DSM_44728,1,bacteria,GCF_000024545.1_ASM2454v1
+Sulfolobus acidocaldarius DSM 639,330779,Sulfolobus_acidocaldarius_DSM_639,1,archaea,GCF_000012285.1_ASM1228v1
+Synechococcus sp. PCC 7002,32049,Synechococcus_sp_PCC7002,1,bacteria,GCF_000019485.1_ASM1948v1
+Syntrophobacter fumaroxidans,119484,Syntrophobacter_fumaroxidans,0,,
+Thermobispora bispora DSM 43833,469371,Thermobispora_bispora_DSM_43833,1,bacteria,GCF_000092645.1_ASM9264v1
+Thermosynechococcus elongatus BP-1,197221,Thermosynechococcus_elongatus_BP-1,0,,
+Thermosynechococcus sp. NK55a,,Thermosynechococcus_sp_NAK55,0,,
+Thermotoga maritima,2336,Thermotoga_maritima,0,,
+Thiocapsa marina,244573,Thiocapsa_marina_DSM_5653T,0,,
+Opitutaceae bacterium TAV1,278956,Verrucomicrobium_sp_TAV1,0,,
+Opitutaceae bacterium TAV5,794903,Verrucomicrobium_sp_TAV5,1,bacteria,GCF_000242935.2_ASM24293v3
+Xylanimonas cellulosilytica DSM 15894,446471,Xylanimonas_cellulosilytica_DSM_15894,1,bacteria,GCF_000024965.1_ASM2496v1
+Yersinia enterocolitica,630,Yersinia_enterocolitica,0,,
+Yersinia pestis CO92,214092,Yersinia_pestis_CO92,0,,
+Yersinia pestis KIM10+,187410,Yersinia_pestis_KIM,0,,
+,,Yersinia_pestis_Pestoides_F,0,,
+Yersinia pseudotuberculosis IP 32953,273123,Yersinia_pseudotuberculosis_IP_32953,0,,
+Yersinia pseudotuberculosis PB1/+,502801,Yersinia_pseudotuberculosis_PB1_Plus,0,,
