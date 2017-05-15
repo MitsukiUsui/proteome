@@ -25,14 +25,13 @@ Organize scattered information about the 112 species on [pnnl dataset](https://w
 ### pnnl_lookup.csv
 * columns and row example
 
-|scientific_name|tax_id|dir_name|genome_flag|
-|:--|:--:|:--|:--:|
-|Acidiphilium cryptum JF-5|349163|Acidiphilium_cryptum_JF-5|0|
+|scientific_name|taxid|dir_name|genome_flag|domain|ftp_basename|
+|:--|:--:|:--|:--:|:--|:--|
+|Actinosynnema mirum DSM 43827|446462|Actinosynnema_mirum_DSM_43827|1|bacteria|GCF_000023245.1_ASM2324v1
 
 * genome_flag (0/1): whether corresponding tax_id is included in [genome analysis](https://github.com/MitsukiUsui/genome)
+* domain & ftp_basename is defined only on those species which genome_flag = 1, otherwise empty.
 
-## pnnl_downloads.csv
-* the columns structure is the same as pnnl_datasets.csv
 
 ## Scripts
 0. parse_proteomexchange.ipynb
@@ -44,8 +43,4 @@ Organize scattered information about the 112 species on [pnnl dataset](https://w
     * manual curation needed because of 111 problem
 
 0. integrate_with_genome
-    * adds genome_flag column to pnnl_lookup.csv
-
-0. pnnl_downloads.ipynb
-    * chooses which datasets to analyze from pnnl_datasets.csv
-	* max 10 datasets for each organisms
+    * adds genome_flag, domain, ftp_basename columns to pnnl_lookup.csv

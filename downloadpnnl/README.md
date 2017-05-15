@@ -1,7 +1,11 @@
 # downloadpnnl
 ## Summary
-Downloads `.mzML`, `.mzid`, and `.fasta`, according to `../createcatalog/pnnl_datasets`
+Downloads `.mzML`, `.mzid`, and `.fasta` from [PNNL datasets](ftplocation), according to `../pickdatasets/pnnl_downloads.csv`
 
 ## Scripts
 0. create_scripts.sh
-    * Creates `download_mzML.sh`, `download_mzid.sh`, and `download_sequence.sh`, which are all composed of wget scripts.
+    * Creates `download_sequence.sh`, which downloads sequence files
+
+0. download_pnnl.sh
+    * Downloads `.mzML`, `.mzid` from PNNL datasets.
+    * If the file is already downloaded, skip to next datasets.

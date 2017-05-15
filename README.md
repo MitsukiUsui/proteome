@@ -7,8 +7,11 @@ Follow this flow from top to bottom. For further information, please refer to RE
 0. createcatalog
     * Chooses which species and dataset to analyze.
 
+0. pickdatasets
+    * Pick which datasets to analyze, considering MS/MS type and the number of identified peptide.
+
 0. downloadpnnl
-    * Downloads designated `.mzML`, `.mzid` & `.fasta` files from [PNNL dataset](https://www.nature.com/articles/sdata201541?WT.mc_id=TWT_NJapan_SciData_1508).
+    * Downloads picked `.mzML`, `.mzid` & `.fasta` files from [PNNL dataset](https://www.nature.com/articles/sdata201541?WT.mc_id=TWT_NJapan_SciData_1508).
 
 0. extractparam
     * Extracts information from `.mzid`s on parameters for peptide identification with MS-GF+.

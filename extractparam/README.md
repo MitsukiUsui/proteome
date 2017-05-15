@@ -1,6 +1,7 @@
 # extractparam
 
 ## Summary
+    * Extracts information from `.mzid`s on parameters for peptide identification with MS-GF+.
 
 ## Output
 ### pnnl_param.csv
@@ -10,6 +11,9 @@
 |same as dir_name|name of the dataset|corresponding parameter set number|
 
 * The pair of `Organism` & `Dataset` can be used as key.
+
+### master
+    * Directory to store master_(param_num).param and corresponding exec_(param_num).sh, Mods_(param_num).txt.
 
 ## Scripts
 
