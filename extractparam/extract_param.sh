@@ -10,8 +10,14 @@ do
 	outDir=~/out/altorf/proteome/param/${organism}/
 	mkdir -p ${outDir}
 	outFilepath=${outDir}${dataset}.param
-	echo ${filepath}
-	echo ${outFilepath}
-	./extract_param.py ${filepath}>${outFilepath}
+	
+	if [ -e ${outFilepath} ]; 
+	then
+		echo "SKIP: "${outFilepath}
+	else
+		./extract_param.py ${filepath}>${outFilepath}
+		echo "DONE: "${outFilepath}
+	fi
+	
 done
 

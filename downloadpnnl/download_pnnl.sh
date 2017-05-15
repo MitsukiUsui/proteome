@@ -2,8 +2,8 @@ ftpDir=ftp://MSV000079053:a@massive.ucsd.edu
 dir=/home/mitsuki/data/pnnl/massive.ucsd.edu
 
 IFS=$'\n'
-#for line in `tail -n +2 ../createcatalog/pnnl_downloads.csv`
-for line in `tail -n +2 ../createcatalog/head_pnnl_downloads.csv`
+#for line in `tail -n +2 ../pickdatasets/head_pnnl_downloads.csv`
+for line in `tail -n +2 ../pickdatasets/pnnl_downloads.csv`
 do
 	organism=`echo ${line}|cut -d, -f 1`
 	dataset=`echo ${line}|cut -d, -f 3`

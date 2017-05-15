@@ -10,9 +10,9 @@ do
 
 	#define which execution file to use for MS-GF+
 	paramNum=`awk -v "o=${organism}" -v "d=${dataset}" -F, '$1==o && $2==d{print $3}' ../extractparam/pnnl_param.csv`
-	cmd=${dir}param/exec_${paramNum}.sh
+	cmd=../extractparam/master/exec_${paramNum}.sh
 
-	#define 3 filepath for MS-GF+
+	#define 4 filepath for MS-GF+
 	specFilepath=/home/mitsuki/data/pnnl/massive.ucsd.edu/peak/${organism}/${dataset}.mzML
 	dataFilepath=`awk -v "o=${organism}" -v "d=${dataset}" -F, '$1==o && $2==d{print $3}' ../createsequence/pnnl_sequence.csv`
 	mzidFilepath=${dir}result/${organism}/${dataset}_annotated.mzid
