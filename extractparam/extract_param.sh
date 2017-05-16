@@ -1,7 +1,7 @@
 #!/bin/sh
 
 IFS=$'\n'
-catalog="../createcatalog/pnnl_downloads.csv"
+catalog="../pickdatasets/pnnl_downloads.csv"
 for line in `tail -n +2 ${catalog}`
 do
 	organism=`echo ${line} | cut -d ',' -f 1`
