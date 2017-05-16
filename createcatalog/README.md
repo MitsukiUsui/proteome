@@ -1,12 +1,12 @@
 # createcatalog
 
 ## Summary
-Organizes scattered information abo the 112 species in [PNNL library](https://www.nature.com/articles/sdata201541?WT.mc_id=TWT_NJapan_SciData_1508).  
+Organizes scattered information about the 112 species in [PNNL library](https://www.nature.com/articles/sdata201541?WT.mc_id=TWT_NJapan_SciData_1508).  
 
 
 ## Inputs
 0. input.txt
-    * copy text from SpeciesList section of [proteomeXchange](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD001860).
+    * copied text from SpeciesList section of [proteomeXchange](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD001860).
 
 0. pnnlFilename.txt
 
@@ -14,12 +14,11 @@ Organizes scattered information abo the 112 species in [PNNL library](https://ww
     wget -v --output-file=logfile.txt --recursive --spider ftp://MSV000079053:a@massive.ucsd.edu/ccms_result/
     cat logfile.txt |grep exists > pnnlFilename.txt
     ```
-    * get directly name
+    * in order to get directly name
 
 ## Outputs
 ### pnnl_lookup.csv
-* columns and row example
-
+e.g)
 |scientific_name|taxid|dir_name|genome_flag|domain|ftp_basename|
 |:--|:--:|:--|:--:|:--|:--|
 |Actinosynnema mirum DSM 43827|446462|Actinosynnema_mirum_DSM_43827|1|bacteria|GCF_000023245.1_ASM2324v1
