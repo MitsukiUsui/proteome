@@ -1,13 +1,12 @@
 # createcatalog
 
 ## Summary
-Organizes scattered information about the 112 species in [pnnl library](https://www.nature.com/articles/sdata201541?WT.mc_id=TWT_NJapan_SciData_1508).  
+Organizes scattered information abo the 112 species in [PNNL library](https://www.nature.com/articles/sdata201541?WT.mc_id=TWT_NJapan_SciData_1508).  
 
 
-## Input
+## Inputs
 0. input.txt
     * copy text from SpeciesList section of [proteomeXchange](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD001860).
-
 
 0. pnnlFilename.txt
 
@@ -15,13 +14,9 @@ Organizes scattered information about the 112 species in [pnnl library](https://
     wget -v --output-file=logfile.txt --recursive --spider ftp://MSV000079053:a@massive.ucsd.edu/ccms_result/
     cat logfile.txt |grep exists > pnnlFilename.txt
     ```
-    * in order to get directly name
+    * get directly name
 
-0. pnnl_datasets.csv
-	* [Supplementray Table 2](https://www.nature.com/article-assets/npg/sdata/2015/sdata201541/extref/sdata201541-s3.xls)
-	* convert first sheet to `.csv`
-
-## Output
+## Outputs
 ### pnnl_lookup.csv
 * columns and row example
 
@@ -35,12 +30,13 @@ Organizes scattered information about the 112 species in [pnnl library](https://
 
 ## Scripts
 0. parse_proteomexchange.ipynb
-    * parses input.txt
+    * parses input.txt and output(input.csv, temp file)
     * only 111/112 species were found.
 
 0. get_directory_name.ipynb
     * adds dir_name column to input.csv
-    * manual curation needed because of 111 problem
+    * manual curation needed because of 111 problem.
+    * after that renamed as pnnl_lookup.csv.
 
-0. integrate_with_genome
+0. integrate_with_genome.ipynb
     * adds genome_flag, domain, ftp_basename columns to pnnl_lookup.csv
