@@ -1,7 +1,7 @@
 # createcatalog
 
 ## Summary
-Organize scattered information about the 112 species on [pnnl dataset](https://www.nature.com/articles/sdata201541?WT.mc_id=TWT_NJapan_SciData_1508).  
+Organizes scattered information about the 112 species in [pnnl library](https://www.nature.com/articles/sdata201541?WT.mc_id=TWT_NJapan_SciData_1508).  
 
 
 ## Input

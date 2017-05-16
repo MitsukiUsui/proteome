@@ -1,6 +1,6 @@
 # downloadpnnl
 ## Summary
-Downloads `.mzML`, `.mzid`, and `.fasta` from [PNNL datasets](ftplocation), according to `../pickdatasets/pnnl_downloads.csv`
+Downloads `.mzML`, `.mzid`, and `.fasta` from [PNNL library ftp location](ftp://massive.ucsd.edu/), according to `../pickdatasets/pnnl_downloads.csv`
 
 ## Scripts
 0. create_scripts.sh

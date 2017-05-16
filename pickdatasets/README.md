@@ -1,7 +1,7 @@
-# createcatalog
+# pickdatasets
 
 ## Summary
-Pick which datasets to analyze, considering the number of identified peptide in each datasets.
+Picks which datasets to analyze, considering the number of identified peptide in each datasets.
 
 ## Inputs
 0. pnnl_datasets.csv
