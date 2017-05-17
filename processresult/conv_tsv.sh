@@ -1,11 +1,10 @@
 IFS=$'\n'
-for line in `tail -n +2 ../createcatalog/pnnl_downloads.csv`
-#for line in `tail -n +2 ../createcatalog/head_pnnl_downloads.csv`
+for line in `tail -n +2 ../pickdatasets/pnnl_downloads.csv`
+#for line in `tail -n +2 ../pickdatasets/head_pnnl_downloads.csv`
 do
 	organism=`echo ${line}|cut -d, -f 1`
 	dataset=`echo ${line}|cut -d, -f 3`
 	
-	#dir=/home/mitsuki/out/altorf/proteome/result/
 	dir=/home/mitsuki/data/pnnl/massive.ucsd.edu/result/
 	mzidFilepath=${dir}${organism}/${dataset}_msgfplus.mzid
 	tsvFilepath=${dir}${organism}/${dataset}_msgfplus.tsv

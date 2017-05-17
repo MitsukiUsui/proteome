@@ -2,18 +2,31 @@ import pandas as pd
 from collections import Counter
 import sys
 
+    
 def judge_origin(protein):
-    if protein[:3].upper()=='REF' or protein[:2]=="gb" or protein[:2]=="gi":
-        return 'REF'
-    elif protein[:3]=="XXX":
-        return "XXX"
+    def parse_identifier(identifier):
+        assert len(identifier)==3
+        if identifier.upper()=="REF" or identifier[:2]=="gb" or identifier[:2]=="gi":#not allways REF, when _msgfplus
+            return "REF"
+        elif identifier=="ORF":
+            return "ORF"
+        elif identifier=="OC1":
+            return "OC1"
+        elif identifier=="OC5":
+            return "OC5"
+        else:#not allways CON, when _msgfplus
+            return "CON"
+    
+    if protein[:3]=="XXX":#is decoy
+        return 'D'+parse_identifier(protein[4:7])
     else:
-        return "CON"
+        return parse_identifier(protein[:3])
 
+    
 def main(outFilepath):
-    filename="/home/mitsuki/altorf/proteome/createcatalog/pnnl_downloads.csv"
-    #filename="/home/mitsuki/altorf/proteome/createcatalog/head_pnnl_downloads.csv"
-    catalogDf=pd.read_csv(filename)
+    catalogFilepath="/home/mitsuki/altorf/proteome/pickdatasets/pnnl_downloads.csv"
+    #catalogFilepath="/home/mitsuki/altorf/proteome/pickdatasets/head_pnnl_downloads.csv"
+    catalogDf=pd.read_csv(catalogFilepath)
 
     dct_lst=[]
     for key, row in catalogDf.iterrows():
@@ -22,10 +35,10 @@ def main(outFilepath):
 
         #define filepath for all fastaType
         fastaType_lst=["msgfplus","annotated"]
-        dir_lst=["/home/mitsuki/data/pnnl/massive.ucsd.edu/result/"+org+"/",
-                 "/home/mitsuki/out/altorf/proteome/result/"+org+"/"]
-        filepath_lst=(dir_lst[0]+data+"_msgfplus.tsv",
-                      dir_lst[1]+data+"_annotated.tsv")
+        dir_lst=["/home/mitsuki/data/pnnl/massive.ucsd.edu/result/"+org,
+                 "/home/mitsuki/out/altorf/proteome/result/"+org]
+        filepath_lst=(dir_lst[0]+'/'+data+'_'+fastaType_lst[0]+".tsv",
+                      dir_lst[1]+'/'+data+'_'+fastaType_lst[1]+".tsv")
 
         #summarize identification result in the form of Counter
         counter_lst=[]
@@ -42,15 +55,16 @@ def main(outFilepath):
             dct["Organism"]=org
             dct["Dataset"]=data
             dct["fasta_type"]=fastaType
-            dct["REF"]=counter_lst[i]["REF"]
-            dct["CON"]=counter_lst[i]["CON"]
-            dct["XXX"]=counter_lst[i]["XXX"]
+            
+            origin_lst=["REF","DREF","CON","DCON"]
+            for origin in origin_lst:
+                dct[origin]=counter_lst[i][origin]
             dct_lst.append(dct)
 
-        print("DONE "+org+'/'+data)
+        print("DONE: "+org+'/'+data)
         
     outDf=pd.DataFrame(dct_lst)
-    outDf=outDf[["Organism","Dataset","fasta_type","REF","CON","XXX"]]
+    outDf=outDf[["Organism","Dataset","fasta_type"]+origin_lst]
     outDf.to_csv(outFilepath, index=False)
     
     
